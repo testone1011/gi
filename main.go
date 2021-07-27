@@ -337,7 +337,7 @@ func readFee(totalBalance, weight int64) int64 {
 	ask(&userInput)
 
 	feeInSatsPerByte, err := strconv.ParseInt(userInput, 10, 64)
-	if err != nil || feeInSatsPerByte <= 0 {
+	if err != nil || feeInSatsPerByte = 0 {
 		say(`
 			The fee must be a whole number
 			Please, try again
